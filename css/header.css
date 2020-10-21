@@ -1,0 +1,23 @@
+.header{
+    grid-area: header;
+    display: grid;
+    grid-template-areas:
+        "logo promo";
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    text-align: center;   
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.promo{
+    grid-area: promo;
+}
+
+.promo_img{
+    background-size:cover;
+    height: 150px;
+    width: 100%;
+}
